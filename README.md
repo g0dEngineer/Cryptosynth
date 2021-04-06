@@ -1,10 +1,12 @@
 # Cryptosynth
 A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with.
 
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png?raw=true "default page")
+
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, I've decided to open source it here.
 
-# Open-source versus Purchased
+# Open-source versus Cryptosynths that have already purchased on Opensea
 While the open source version has a sample ai generated cryptosynth aeon being, the open source does not have directions on how to create new synths, going from ai generated pictures to 3d model, which is available in purchased version.
 
 # Contact
@@ -35,6 +37,10 @@ _Note_: The hugging face gpt2 ai required modification to both syntatically agre
 
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
 
+
+
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png?raw=true "default page")
+A snapshot of the 1st Cryptosynth sold on Opensea.
 
 # Quick Overview for general/partly technical understanding
 Each Cryptosynth Aeon is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with, built in essentially 4 parts:
