@@ -27,12 +27,18 @@ Copyright CryptosynthLabs 2021. Please don't redistribute without an arrangement
 # A fun note
 Each synth has a variety of genderless characters.
 
+# Technical Summary
+
+Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a bledner3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __init__.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __init__ controller file, which is about 225 lines of python code for interacting with Blender3d. 
+	
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
+
+
 # Quick Overview for general/partly technical understanding
 Each Cryptosynth Aeon is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with, built in essentially 4 parts:
 
 A: From scratch by God Bennett, a blender3d controller is made to enable the actions that the Cryotosynth Aeon 3d being performs. 
 	See: __init__.py in repository, which is the controller mentioned above.
-	
 
 B: Conversational artificial intelligence, which powers the cryptosynth aeon's ability to respond to user messages. (Built on top of huggingfaceai tech, converted into blender3d by God Bennett/Cryptosynth founder. Modification also includes crucial time complexity reduction, by removing personality randomization/dataset loading, which froze Blender3d Ui. This is replaced with single personalities per load; reducing load time from ~4 min to 5 seconds.)
 	See: interact_cryptosynth.py in CRYPTOSYNTH_BLENDER_PLUGIN_AEON_sample_scene.zip plugin.
