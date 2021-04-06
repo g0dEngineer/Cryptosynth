@@ -57,7 +57,7 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 
 
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.pnge "default page")
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png "default page")
 
 Quick snapshot of the [1st cryptosynth aeon being sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
 
@@ -90,8 +90,7 @@ Quick snapshot of the [1st cryptosynth aeon being sold on Opensea](https://opens
 1. Download and install blender 2.91 (a popular 3d modeling program): 
 https://www.blender.org/download/releases/2-91/
 
-2. Download and extract the sample Cryptosynth Blender 3d scene file, which contains the 3d Aeon being and scene:
-_LINK_
+2. Download and extract the [sample Cryptosynth Blender 3d scene file](https://drive.google.com/file/d/1gYZUaboxTSwhIenVQKDgkirmlvvuUaVS/view?usp=sharing), which contains the 3d Aeon being and scene.
 
 3. Open Blender3d 2.9, and then from File menu (top left) select open option then navigate to item from (2) above. 
 
@@ -164,7 +163,7 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 # How is each Cryptosynth Aeon being is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
 
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png "default page")
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/How%20a%20cryptosynth%20aeon%20being%20created.png "default page")
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
 2. That photorealistic fake person is then converted to a 3d model in some program B.
