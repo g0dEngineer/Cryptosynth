@@ -46,7 +46,7 @@ A: From scratch by God Bennett, a blender3d controller is made to enable the act
 	See: __ init __.py in repository, which is the controller mentioned above.
 
 B: Conversational artificial intelligence, which powers the cryptosynth aeon's ability to respond to user messages. (Built on top of huggingfaceai tech, converted into blender3d by God Bennett/Cryptosynth founder. Modification also includes crucial time complexity reduction, by removing personality randomization/dataset loading, which froze Blender3d Ui. This is replaced with single personalities per load; reducing load time from ~4 min to 5 seconds.)
-	See: interact_cryptosynth.py in CRYPTOSYNTH_BLENDER_PLUGIN_AEON_sample_scene.zip plugin.
+	See: interact_cryptosynth.py in repository.
 
 
 C: Blender3d model/scene enabling user to converse with 3d being. (Written from scratch by God Bennett/Cryptosynth founder)
