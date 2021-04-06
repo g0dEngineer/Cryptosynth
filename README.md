@@ -1,6 +1,11 @@
 # Cryptosynth
 A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with.
 
+A Cryptosynth Aeon is an Ai powered NFT (Non-fungible-token) or Crypto-art that users can actually download and talk to, powered by blender3d and gpt-2 conversational ai module.
+
+
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png "default page")
+
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, I've decided to open source it here.
 
@@ -52,8 +57,9 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 
 
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.pnge "default page")
 
-
+Quick snapshot of the [1st cryptosynth aeon being sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
 
 # How to use:
 
@@ -157,6 +163,8 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 
 # How is each Cryptosynth Aeon being is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
+
+![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png "default page")
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
 2. That photorealistic fake person is then converted to a 3d model in some program B.
