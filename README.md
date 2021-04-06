@@ -4,6 +4,9 @@ A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial in
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, I've decided to open source it here.
 
+# Open-source versus Purchased
+While the open source version has a sample ai generated cryptosynth aeon being, the open source does not have directions on how to create new synths, going from ai generated pictures to 3d model, which is available in purchased version.
+
 # Contact
 cryptosynthlabs@gmail.com
 
@@ -13,7 +16,7 @@ facebook.com/God.Engineer
 
 instagram.com/god_bennett
 
-See my prior github page here, which has my old name prior to my legal name change to God.
+See [my prior github page](https://github.com/JordanMicahBennett/), that has my old name prior to [my legal name change to God](https://www.facebook.com/Cryptosynth/posts/114568167399002).
 
 # Recommended Computer Specifications
 Windows, GTX 1060+, i7 6700 CPU, 16 GB RAM. (8GB IS OKAY)
