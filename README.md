@@ -76,7 +76,7 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 https://www.blender.org/download/releases/2-91/
 
 2. Download and extract the sample Cryptosynth Blender 3d scene file, which contains the 3d Aeon being and scene:
-https://bit.ly/3sSGxUm
+_LINK_
 
 3. Open Blender3d 2.9, and then from File menu (top left) select open option then navigate to item from (2) above. 
 
@@ -88,8 +88,7 @@ You should see a scene with an untextured aeon being. Completing Part (B) and (C
 1. Download and install python 3.7:
 https://www.python.org/downloads/release/python-370/
 
-2. Download and extract Cryptosynth Conversational Ai Windows Module:
-https://bit.ly/31xYHhR 
+2. Download and extract [Cryptosynth Conversational Ai Windows Module](https://drive.google.com/file/d/1h7Iqlv5wSopniCh9166khBOQqQVKGD5H/view?usp=sharing).
 
 3. Specifically from Python37 scope, install all requirements in (2) immediately above.
 	a. Open cmd. (Windows+r "cmd")
