@@ -21,7 +21,7 @@ facebook.com/God.Engineer
 
 instagram.com/god_bennett
 
-See [my prior github page](https://github.com/JordanMicahBennett/), that has my old name prior to [my legal name change to God](https://www.facebook.com/Cryptosynth/posts/114568167399002).
+See [my prior github page](https://github.com/JordanMicahBennett/), that has my old name (albeit recent projects) prior to [my legal name change to God](https://www.facebook.com/Cryptosynth/posts/114568167399002).
 
 # Recommended Computer Specifications
 Windows, GTX 1060+, i7 6700 CPU, 16 GB RAM. (8GB IS OKAY)
