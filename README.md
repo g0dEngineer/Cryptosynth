@@ -30,7 +30,7 @@ Windows, GTX 1060+, i7 6700 CPU, 16 GB RAM. (8GB IS OKAY)
 Copyright CryptosynthLabs 2021. Please don't redistribute without an arrangement with Cryptosynth Labs.
 
 # A fun note
-Each synth has a variety of genderless characters.
+Each synth has a variety of genderless Ai-talking characters.
 
 # Technical Summary
 
