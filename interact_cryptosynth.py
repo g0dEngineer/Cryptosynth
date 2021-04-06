@@ -94,13 +94,13 @@ def sample_sequence(personality, history, tokenizer, model, args, current_output
     return current_output
 
 #############################################
-# God_Edit: Split run function into establishNeuralNetConversationalModule and getNeuralNetConversationalResponse below.
+# God_Edit: Split run function into new class NeuralNetConversationalModule and function getNeuralNetConversationalResponse below.
 # This converts original python console dialog, to a setup that simply accepts user input, and a function that captures Ai response, so that
 # response can be eventually allocated to a blender3d ui dialog associated with Aeon Ai.
 
 
 
-#God_Edit_Addition_Part_A: Add establishNeuralNetConversationalModule, which is taken as a portion of original run () function
+#God_Edit_Addition_Part_A: Add new class NeuralNetConversationalModule, which is taken as a portion of original run () function
 #God_Edit: This in short facilitates setup of Ai conversational module, by saving state related to loaded weights as class atttributes,
 #          ..usable in getNeuralNetConversationalResponse.
 class NeuralNetConversationalModule ():
