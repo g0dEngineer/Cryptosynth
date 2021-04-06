@@ -34,7 +34,7 @@ Each synth has a variety of genderless Ai-talking characters.
 
 # Technical Summary
 
-Essentially, each Cryptosynth Aeon being is an Ai generated 3d model, from fake Ai generated images of people, inside a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
+Essentially, each Cryptosynth Aeon being is an Ai generated 3d model, from Ai generated images of fake, but real looking people, inside a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
 	
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
 
