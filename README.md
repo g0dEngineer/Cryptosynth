@@ -105,7 +105,8 @@ You should see a scene with an untextured aeon being. Completing Part (B) and (C
 https://www.python.org/downloads/release/python-370/
 
 2. Download and extract [Cryptosynth Conversational Ai Windows Module](https://drive.google.com/file/d/1h7Iqlv5wSopniCh9166khBOQqQVKGD5H/view?usp=sharing). 
-Fun note: Cryptosynth needs both the zip above as well as the plugin to work. However, the zip above is needed to generate the Ai brain which is explained below. This is closer to the original hugging face gpt2 code base, and lacks all modifications seen in the plugin format of the code, as this plugin is actually a further modified version of this code base, the biggest exception being my __ init __.py file explained in the [quick overview section](https://github.com/g0dEngineer/Cryptosynth#quick-overview-for-generalpartly-technical-understanding.
+
+### Fun note: Cryptosynth needs both the zip above as well as the plugin to work. However, the zip above is needed to generate the Ai brain which is explained below. This is closer to the original hugging face gpt2 code base, and lacks all modifications seen in the plugin format of the code, as the cryptosynth plugin is actually a further modified version of this code base, the biggest exception being my __ init __.py file explained in the [quick overview section](https://github.com/g0dEngineer/Cryptosynth#quick-overview-for-generalpartly-technical-understanding).
 
 3. Specifically from Python37 scope, install all requirements in (2) immediately above.
 	a. Open cmd. (Windows+r "cmd")
