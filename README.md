@@ -12,6 +12,11 @@ To help collaboratively improve cyptosynths, and further engage the NFT communit
 # Open-source versus synths that have already been Purchased
 While the open source version has a sample ai generated cryptosynth aeon being, the open source does not have directions and code regarding how to create new synths, going from ai generated pictures to 3d model, which is available in purchased/purchasable version.
 
+Sample Cryptosynth Aeon being provided in this repository:
+
+![image](https://user-images.githubusercontent.com/82050128/113765236-9b2a9800-96e1-11eb-95f3-b3f054e54394.png)
+
+
 # Contact
 cryptosynthlabs@gmail.com
 
