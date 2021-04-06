@@ -29,8 +29,10 @@ Each synth has a variety of genderless characters.
 
 # Technical Summary
 
-Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for enabling 3d behaviours and 3d interaction with Blender3d, as well as dialog outputs/inputs. 
-	
+Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based modified version of huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the modified gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for enabling 3d behaviours and 3d interaction with Blender3d, as well as dialog outputs/inputs. 
+
+_Note_: The hugging face gpt2 ai required modification to both syntatically agree with my __ init __ controller, as well as agree with blender3d's computation profile. Blender3d froze without particular time-space complexity modifications I made to [interact_cryptosynth.py](https://github.com/g0dEngineer/Cryptosynth/blob/main/interact_cryptosynth.py), a modified version of [interact.py](https://github.com/g0dEngineer/Cryptosynth/blob/main/interact.py).
+
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
 
 
