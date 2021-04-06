@@ -34,7 +34,7 @@ Each synth has a variety of genderless characters.
 
 # Technical Summary
 
-Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a bledner3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
+Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
 	
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
 
@@ -87,12 +87,14 @@ Quick snapshot of the [1st cryptosynth aeon being sold on Opensea](https://opens
 
 ## Part A - 3d Program and Cryptosynth assets setup
 
-1. Download and install blender 2.91 (a popular 3d modeling program): 
+1. Extract this repository's files to a folder somehwhere.
+
+2. Download and install blender 2.91 (a popular 3d modeling program): 
 https://www.blender.org/download/releases/2-91/
 
-2. Download and extract the [sample Cryptosynth Blender 3d scene file](https://drive.google.com/file/d/1gYZUaboxTSwhIenVQKDgkirmlvvuUaVS/view?usp=sharing), which contains the 3d Aeon being and scene.
+3. Download and extract the [sample Cryptosynth Blender 3d scene file](https://drive.google.com/file/d/1gYZUaboxTSwhIenVQKDgkirmlvvuUaVS/view?usp=sharing), which contains the 3d Aeon being and scene.
 
-3. Open Blender3d 2.9, and then from File menu (top left) select open option then navigate to item from (2) above. 
+4. Open Blender3d 2.91, and then from File menu (top left) select open option then navigate to item from (2) above. 
 
 You should see a scene with an untextured aeon being. Completing Part (B) and (C) below, and then following Instructions automatically gets your Aeon being ready for interaction and use.
 
@@ -137,17 +139,18 @@ Fun-note: If you look closely, the plugin (from Part A/2) contains similar code 
 
 ## Part C - Cryptosynth Aeon plugin download & pointing plugin to Aeon's brain file
 
-1. Download cryptosynth plugin utils.py, and edit file by changing tempdir value (under "download_pretrained_model") to directory of the result from 4.b. Ensure slashes in path face this "/" way:
+1. Open utils.py (with python idle to avoid corrupting spacing) , and edit file by changing tempdir value (under "download_pretrained_model") to directory of the result from 4.b. Ensure slashes in path face this "/" way:
 https://bit.ly/3cBXrAE
 
-2. Download ["Cryptosynth Aeon Communicate" plugin zip](https://drive.google.com/file/d/1caTu2UTFpFVMt-uzFvI2I-fw-hvZgUT4/view?usp=sharing) to for blender 2.91. At no point is an unzip required.
-(All Cryptosynth plugins are custom for blender 2.91, and each plugin per aeon is again personalized to each Aeon)
+2. Check utils.py file to see if value in tempdir has changed to your value from Part B/4b.
 
-3. Open (2) zip with Winrar, navigate to first place where you can see files, and just drag utils.py to the zip directory Cryptosynth Aeon Communicate from (2) immediately above. Agree to override if prompted. If not prompted, replace should still have been successful. This replaces utils.py in plugin, with the utils.py instance containing the directory to the ai brain. Don't unzip, as plugin will be added with new updated zip format to blender. (ENSURE YOU DROP utils.py in the same place you see the existing utils.py in the zip file)
+3. Using Winrar, create plugin by simply zipping all of the repository files, such that a folder exists inside the zip, with the repository files. This zip file is what comprises the plugin. 
 
-Check zip file, by looking at utils.py (extract it to edit with notepad) to see if value in tempdir has changed to your value from Part B/4b.
+![image](https://user-images.githubusercontent.com/82050128/113756642-3cf8b780-96d7-11eb-9c29-176e7884cc36.png)
 
-4. Open Blender 3d 2.9. Go to Edit > Preferences > Install Then navigate to zip from (3) above. Select check to enable Cryptosynth Aeon plugin.
+All syntax in the files has already been adjusted to properly be importable into blender in zip format.
+
+4. Open Blender 3d 2.91. Go to Edit > Preferences > Install Then navigate to zip from (3) above. Select check to enable Cryptosynth Aeon plugin.
 
 5. Click anywhere in 3d scene (like beside Aeon) and hit "Ctrl + alt + space" to maximize screen.
 
