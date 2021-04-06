@@ -94,7 +94,7 @@ https://www.blender.org/download/releases/2-91/
 
 3. Download and extract the [sample Cryptosynth Blender 3d scene file](https://drive.google.com/file/d/1gYZUaboxTSwhIenVQKDgkirmlvvuUaVS/view?usp=sharing), which contains the 3d Aeon being and scene.
 
-4. Open Blender3d 2.91, and then from File menu (top left) select open option then navigate to item from (2) above. 
+4. Open Blender3d 2.91, and then from File menu (top left) select open option then navigate to item from [plugin creation section.](https://github.com/g0dEngineer/Cryptosynth/blob/main/README.md#part-c---cryptosynth-aeon-plugin-download--pointing-plugin-to-aeons-brain-file)
 
 You should see a scene with an untextured aeon being. Completing Part (B) and (C) below, and then following Instructions automatically gets your Aeon being ready for interaction and use.
 
@@ -138,7 +138,7 @@ Fun-note: If you look closely, the plugin (from Part A/2) contains similar code 
 	
 	
 
-## Part C - Cryptosynth Aeon plugin download & pointing plugin to Aeon's brain file
+## Part C - Cryptosynth Aeon plugin creation & pointing plugin to Aeon's brain file
 
 1. Open utils.py (with python idle to avoid corrupting spacing) , and edit file by changing tempdir value (under "download_pretrained_model") to directory of the result from 4.b. Ensure slashes in path face this "/" way:
 https://bit.ly/3cBXrAE
