@@ -46,7 +46,7 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 
 
-#How to use:
+# How to use:
 
 ##A-Auto setup textures: Auto-apply all aeon textures to 3d model, by :
 1) Going to File > External Data > Find Missing Files 
@@ -55,7 +55,7 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 4) Now that your model has textures, if the source, logo textures and code snippet picture to the right of your model are missing, do steps (1) to (3), stopping at the "sample_scene_cryptosynth_blender" directory before pressing "Find Missing Files".
 
 
-##B-Talk to Aeon!!!
+## B-Talk to Aeon!!!
 
 #1. "I" key : *Initialize* Cryptosynth Aeon being. (Expand resulting dialog/popup (bottom left) with words "Aeon Initialization done")
 #2. Right click anywhere in 3d scene (like beside the synth) to enable Cryptosynth Aeon Dialog (bottom left screen).
@@ -68,9 +68,9 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 
 
-#Installation
+# Installation
 
-##Part A - 3d Program and Cryptosynth assets setup
+## Part A - 3d Program and Cryptosynth assets setup
 
 1. Download and install blender 2.91 (a popular 3d modeling program): 
 https://www.blender.org/download/releases/2-91/
@@ -83,7 +83,7 @@ https://bit.ly/3sSGxUm
 You should see a scene with an untextured aeon being. Completing Part (B) and (C) below, and then following Instructions automatically gets your Aeon being ready for interaction and use.
 
 
-##Part B - Python Setup
+## Part B - Python Setup
 
 1. Download and install python 3.7:
 https://www.python.org/downloads/release/python-370/
@@ -121,7 +121,7 @@ Fun-note: If you look closely, the plugin (from Part A/2) contains similar code 
 	
 	
 
-##Part C - Cryptosynth Aeon plugin download & pointing plugin to Aeon's brain file
+## Part C - Cryptosynth Aeon plugin download & pointing plugin to Aeon's brain file
 
 1. Download cryptosynth plugin utils.py, and edit file by changing tempdir value (under "download_pretrained_model") to directory of the result from 4.b. Ensure slashes in path face this "/" way:
 https://bit.ly/3cBXrAE
@@ -146,7 +146,7 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 
 
 
-#How is each Cryptosynth Aeon being from (A) is built?
+# How is each Cryptosynth Aeon being from (A) is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
