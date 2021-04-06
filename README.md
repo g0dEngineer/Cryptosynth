@@ -6,7 +6,7 @@ A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial in
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, I've decided to open source it here.
 
-# Open-source versus Cryptosynths that have already purchased on Opensea
+# Open-source versus Cryptosynths that have already been purchased on Opensea
 While the open source version has a sample ai generated cryptosynth aeon being, the open source does not have directions on how to create new synths, going from ai generated pictures to 3d model, which is available in purchased version.
 
 # Contact
