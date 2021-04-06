@@ -1,12 +1,10 @@
 # Cryptosynth
 A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with.
 
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png?raw=true "default page")
-
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, I've decided to open source it here.
 
-# Open-source versus Cryptosynths that have already been purchased on Opensea
+# Open-source versus Purchased
 While the open source version has a sample ai generated cryptosynth aeon being, the open source does not have directions on how to create new synths, going from ai generated pictures to 3d model, which is available in purchased version.
 
 # Contact
@@ -31,16 +29,10 @@ Each synth has a variety of genderless characters.
 
 # Technical Summary
 
-Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based modified version of huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the modified gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for enabling 3d behaviours and 3d interaction with Blender3d, as well as dialog outputs/inputs. 
-
-_Note_: The hugging face gpt2 ai required modification to both syntatically agree with my __ init __ controller, as well as agree with blender3d's computation profile. Blender3d completely froze without particular time-space complexity modifications I made in the form of [interact_cryptosynth.py](https://github.com/g0dEngineer/Cryptosynth/blob/main/interact_cryptosynth.py), a modified version of [interact.py](https://github.com/g0dEngineer/Cryptosynth/blob/main/interact.py).
-
+Essentially, each Cryptosynth Aeon being is a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a bledner3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
+	
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
 
-
-
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png?raw=true "default page")
-A snapshot of the 1st Cryptosynth sold on Opensea.
 
 # Quick Overview for general/partly technical understanding
 Each Cryptosynth Aeon is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with, built in essentially 4 parts:
@@ -143,8 +135,8 @@ Fun-note: If you look closely, the plugin (from Part A/2) contains similar code 
 1. Download cryptosynth plugin utils.py, and edit file by changing tempdir value (under "download_pretrained_model") to directory of the result from 4.b. Ensure slashes in path face this "/" way:
 https://bit.ly/3cBXrAE
 
-2. Download "Cryptosynth Aeon Communicate" plugin zip to for blender 2.91. At no point is an unzip required:
-https://bit.ly/39Dxn6m (All Cryptosynth plugins are custom for blender 2.91, and each plugin per aeon is again personalized to each Aeon)
+2. Download ["Cryptosynth Aeon Communicate" plugin zip](https://drive.google.com/file/d/1caTu2UTFpFVMt-uzFvI2I-fw-hvZgUT4/view?usp=sharing) to for blender 2.91. At no point is an unzip required.
+(All Cryptosynth plugins are custom for blender 2.91, and each plugin per aeon is again personalized to each Aeon)
 
 3. Open (2) zip with Winrar, navigate to first place where you can see files, and just drag utils.py to the zip directory Cryptosynth Aeon Communicate from (2) immediately above. Agree to override if prompted. If not prompted, replace should still have been successful. This replaces utils.py in plugin, with the utils.py instance containing the directory to the ai brain. Don't unzip, as plugin will be added with new updated zip format to blender. (ENSURE YOU DROP utils.py in the same place you see the existing utils.py in the zip file)
 
