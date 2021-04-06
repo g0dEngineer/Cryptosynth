@@ -144,7 +144,7 @@ https://bit.ly/3cBXrAE
 
 2. Check utils.py file to see if value in tempdir has changed to your value from Part B/4b.
 
-3. Using Winrar, create plugin by simply zipping all of the repository files, such that a folder exists inside the zip, with the repository files. This zip file is what comprises the plugin. 
+3. Using Winrar, create plugin by simply zipping all of the repository files, such that a folder exists inside the zip, with the repository files. This zip file is what comprises the plugin. This can easily be acheived properly, by zimply zipping the folder you got from step (1) in [Part A of the Installation section](https://github.com/g0dEngineer/Cryptosynth/blob/main/README.md#part-a---3d-program-and-cryptosynth-assets-setup). 
 
 ![image](https://user-images.githubusercontent.com/82050128/113756642-3cf8b780-96d7-11eb-9c29-176e7884cc36.png)
 
