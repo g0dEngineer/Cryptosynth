@@ -48,19 +48,19 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 # How to use:
 
-##A-Auto setup textures: Auto-apply all aeon textures to 3d model, by :
-1) Going to File > External Data > Find Missing Files 
-2) Repeatedly press "Find Missing Files" until folder  model.fbm is found. (sample_scene_cryptosynth_blender\models\sample_scene\model.fbm\)
-3) When in final folder with textres, press "Find Missing Files" once more, and witness textures being automatically applied.
-4) Now that your model has textures, if the source, logo textures and code snippet picture to the right of your model are missing, do steps (1) to (3), stopping at the "sample_scene_cryptosynth_blender" directory before pressing "Find Missing Files".
+## A-Auto setup textures: Auto-apply all aeon textures to 3d model, by :
+1. Going to File > External Data > Find Missing Files 
+2. Repeatedly press "Find Missing Files" until folder  model.fbm is found. (sample_scene_cryptosynth_blender\models\sample_scene\model.fbm\)
+3. When in final folder with textres, press "Find Missing Files" once more, and witness textures being automatically applied.
+4. Now that your model has textures, if the source, logo textures and code snippet picture to the right of your model are missing, do steps (1) to (3), stopping at the "sample_scene_cryptosynth_blender" directory before pressing "Find Missing Files".
 
 
 ## B-Talk to Aeon!!!
 
-#1. "I" key : *Initialize* Cryptosynth Aeon being. (Expand resulting dialog/popup (bottom left) with words "Aeon Initialization done")
-#2. Right click anywhere in 3d scene (like beside the synth) to enable Cryptosynth Aeon Dialog (bottom left screen).
-#3. "T" key : Start Aeon *thinking*/reading cycle. 
-#4. "R" key : Get *response* from Aeon being.
+1. "I" key : *Initialize* Cryptosynth Aeon being. (Expand resulting dialog/popup (bottom left) with words "Aeon Initialization done")
+2. Right click anywhere in 3d scene (like beside the synth) to enable Cryptosynth Aeon Dialog (bottom left screen).
+3. "T" key : Start Aeon *thinking*/reading cycle. 
+4. "R" key : Get *response* from Aeon being.
 
 
 
@@ -145,7 +145,7 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 
 
 
-# How is each Cryptosynth Aeon being from (A) is built?
+# How is each Cryptosynth Aeon being is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
