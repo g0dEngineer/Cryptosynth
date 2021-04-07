@@ -3,8 +3,7 @@ A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial in
 
 A Cryptosynth Aeon is an Ai powered NFT [(Non-fungible-token) or Crypto-art](https://www.cnbc.com/2021/03/03/what-are-nfts-all-you-need-to-know-about-crypto-collectibles.html) that users can actually download and talk to, powered by blender3d and gpt-2 conversational ai module.
 
-
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/BANNER.png "default page")
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/BANNER.png)
 
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, and further engage the NFT community and beyond, I've decided to open source it here.
@@ -14,7 +13,7 @@ While the open source version has a sample ai generated cryptosynth aeon being, 
 
 Sample Cryptosynth Aeon being provided in this repository:
 
-![image](https://user-images.githubusercontent.com/82050128/113765236-9b2a9800-96e1-11eb-95f3-b3f054e54394.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/sample.png)
 
 
 # Contact
@@ -41,8 +40,7 @@ Each synth has a variety of genderless Ai-talking characters.
 
 Essentially, each Cryptosynth Aeon being is an Ai generated 3d model, from Ai generated images of fake, but real looking people, inside a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
 	
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png?raw=true "default page")
-
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png)
 
 # Quick Overview for general/partly technical understanding
 Each Cryptosynth Aeon is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with, built in essentially 4 parts:
@@ -155,6 +153,16 @@ https://bit.ly/3cBXrAE
 ![image](https://user-images.githubusercontent.com/82050128/113756642-3cf8b780-96d7-11eb-9c29-176e7884cc36.png)
 
 All syntax in the files has already been adjusted to properly be importable into blender in zip format.
+
+## After you add Cryptosynth plugin, you'll see new Blender3d components, such as:
+
+i. New panels, new Blender3d panel indicating cryptosynth initialization is done, meaning essentially that Ai and Texture loading is done:
+https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_a.png?raw=true
+https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_b.png?raw=true
+
+ii. New Option in Blender3d Object Context Menu to enable Dialog and responses from to/from cryptosynth entity/being:
+https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_a.png?raw=true
+https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_b.png?raw=true
 
 4. Open Blender 3d 2.91. Go to Edit > Preferences > Install Then navigate to zip from (3) above. Select check to enable Cryptosynth Aeon plugin.
 
