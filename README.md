@@ -64,7 +64,7 @@ D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purp
 
 ![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png "default page")
 
-Quick snapshot of the [1st cryptosynth aeon being sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
+Quick snapshot of the [1st cryptosynth aeon entity, already sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
 
 # How to use:
 
