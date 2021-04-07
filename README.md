@@ -24,11 +24,11 @@ cryptosynthlabs@gmail.com
 
 godquestbennett@gmail.com
 
-facebook.com/God.Engineer
+[facebook.com/God.Engineer](facebook.com/God.Engineer)
 
-https://www.facebook.com/Cryptosynth
+[facebook.com/Cryptosynth](facebook.com/Cryptosynth)
 
-instagram.com/god_bennett
+[instagram.com/god_bennett](instagram.com/god_bennett)
 
 See [my prior github page](https://github.com/JordanMicahBennett/), that has my old name (albeit recent projects) prior to [my legal name change to God](https://www.facebook.com/Cryptosynth/posts/114568167399002).
 
