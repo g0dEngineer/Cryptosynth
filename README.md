@@ -5,6 +5,9 @@ A Cryptosynth Aeon is an Ai powered NFT [(Non-fungible-token) or Crypto-art](htt
 
 ![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/BANNER.png)
 
+# Demo
+https://youtu.be/5eCcOtLV0uE
+
 # Why open source cryptosynth?
 To help collaboratively improve cyptosynths, and further engage the NFT community and beyond, I've decided to open source it here.
 
