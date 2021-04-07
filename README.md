@@ -68,7 +68,7 @@ Quick snapshot of the [1st cryptosynth aeon entity, already sold on Opensea](htt
 ## A-Auto setup textures: Auto-apply all aeon textures to 3d model, by :
 1. Going to File > External Data > Find Missing Files 
 2. Repeatedly press "Find Missing Files" until folder  model.fbm is found. (sample_scene_cryptosynth_blender\models\sample_scene\model.fbm\)
-3. When in final folder with textres, press "Find Missing Files" once more, and witness textures being automatically applied.
+3. When in final folder with textures, press "Find Missing Files" once more, and witness textures being automatically applied.
 4. Now that your model has textures, if the source, logo textures and code snippet picture to the right of your model are missing, do steps (1) to (3), stopping at the "sample_scene_cryptosynth_blender" directory before pressing "Find Missing Files".
 
 
