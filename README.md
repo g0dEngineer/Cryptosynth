@@ -40,7 +40,7 @@ Each synth has a variety of genderless Ai-talking characters.
 
 Essentially, each Cryptosynth Aeon being is an Ai generated 3d model, from Ai generated images of fake, but real looking people, inside a blender3d scene, integrated with pytorch based huggingface gpt2 conversational Ai agent. The solution is essentially a blender3d file I wrote from scratch, combined with blender3d compatible conversational hugging face gpt2 ai. In fact, the plugin zip file I organized, includes my cryptosynth __ init __.py file, as well as the gpt2 hugging face ai library, where all hugging face ai files have been modified in order to be imported into my cryptosynth __ init __ controller file, which is about 225 lines of python code for interacting with Blender3d. 
 	
-![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/Cryptosynth_Core_Controller_Init_Py_Snippet.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/snippet.png)
 
 # Quick Overview for general/partly technical understanding
 Each Cryptosynth Aeon is an artificial intelligence powered, artistically realistic 3d being, that anyone can actually hold a conversation with, built in essentially 4 parts:
@@ -59,7 +59,7 @@ C: Blender3d model/scene enabling user to converse with 3d being. (Written from 
 D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purpose of easy loading into Blender3d by other users without the need for programming skills.
 
 
-![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/0000.png?raw=true)
 
 Quick snapshot of the [1st cryptosynth aeon entity, already sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
 
@@ -179,7 +179,7 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 # How is each Cryptosynth Aeon being is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
 
-![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/How%20a%20cryptosynth%20aeon%20being%20created.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/How%20a%20cryptosynth%20aeon%20being%20created.png)
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
 2. That photorealistic fake person is then converted to a 3d model in some program B.
