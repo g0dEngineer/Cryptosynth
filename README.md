@@ -59,8 +59,7 @@ C: Blender3d model/scene enabling user to converse with 3d being. (Written from 
 D: (A) and (B) are combined into a Blender3d plugin by God Bennett, for the purpose of easy loading into Blender3d by other users without the need for programming skills.
 
 
-
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png "default page")
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/0000.png)
 
 Quick snapshot of the [1st cryptosynth aeon entity, already sold on Opensea](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937).
 
@@ -150,19 +149,19 @@ https://bit.ly/3cBXrAE
 
 3. Using Winrar, create plugin by simply zipping all of the repository files, such that a folder exists inside the zip, with the repository files. This zip file is what comprises the plugin. This can easily be acheived properly, by zimply zipping the folder you got from step (1) in [Part A of the Installation section](https://github.com/g0dEngineer/Cryptosynth/blob/main/README.md#part-a---3d-program-and-cryptosynth-assets-setup). 
 
-![image](https://user-images.githubusercontent.com/82050128/113756642-3cf8b780-96d7-11eb-9c29-176e7884cc36.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/zip_instructions.png)
 
 All syntax in the files has already been adjusted to properly be importable into blender in zip format.
 
 ## After you add Cryptosynth plugin, you'll see new Blender3d components, such as:
 
 i. New panels, new Blender3d panel indicating cryptosynth initialization is done, meaning essentially that Ai and Texture loading is done:
-https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_a.png?raw=true
-https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_b.png?raw=true
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_a.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20blender%20panel%20indicating%20cryptosynth%20initialization%20is%20done_b.png)
 
 ii. New Option in Blender3d Object Context Menu to enable Dialog and responses from to/from cryptosynth entity/being:
-https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_a.png?raw=true
-https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_b.png?raw=true
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_a.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/new%20menu%20item%20added_b.png)
 
 4. Open Blender 3d 2.91. Go to Edit > Preferences > Install Then navigate to zip from (3) above. Select check to enable Cryptosynth Aeon plugin.
 
@@ -180,7 +179,7 @@ This adds the crucial user interface and ai integration into Blender3d, wrt Cryp
 # How is each Cryptosynth Aeon being is built?
 https://www.facebook.com/Cryptosynth/posts/108859584636527
 
-![Alt text](https://github.com/g0dEngineer/Cryptosynth/blob/main/How%20a%20cryptosynth%20aeon%20being%20created.png "default page")
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/How%20a%20cryptosynth%20aeon%20being%20created.png)
 
 1. An image of a completely fake, but realistic looking human is made using stylegan based GAN neural network
 2. That photorealistic fake person is then converted to a 3d model in some program B.
