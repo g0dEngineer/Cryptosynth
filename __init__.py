@@ -24,7 +24,7 @@ bl_info = {
 ########################################################
 #BLOCK_A. Conversational Neural Network Module
 #Note 1: Setup function is invoked in aeonInitializeBeing (), before 3d model realism is invoked
-#Note 2: Neural network/ai response is called in "UserTransmission" class @execute func, where aeon_output variables is updated.
+#Note 2: Neural network/ai response is called in "UserTransmission" class @execute func, where aeon_output variable is updated.
 from . import interact_cryptosynth 
 CONVERSATIONAL_NEURAL_NETWORK = interact_cryptosynth.NeuralNetConversationalModule()
 
@@ -32,14 +32,6 @@ CONVERSATIONAL_NEURAL_NETWORK = interact_cryptosynth.NeuralNetConversationalModu
 ########################################################
 #BLOCK_B. Cryptosynth Blender3d Modules
 import bpy
-
-def printToBlenderConsole(data):
-    for window in bpy.context.window_manager.windows:
-        screen = window.screen
-        for area in screen.areas:
-            if area.type == 'CONSOLE':
-                override = {'window': window, 'screen': screen, 'area': area}
-                bpy.ops.console.scrollback_append(override, text=str(data), type="OUTPUT")   
 
 
 def aeonInitializeBeing (context):
@@ -87,8 +79,7 @@ def _aeon_3d_action_begin_read_behaviour():
     
     #A. Prepare model for animation
     #Focus on eyes, which animate to do reading action
-    #...1. Disable cycles mode and enter eevee mode
-    #B. Enable God Bennett's original "photorealistic" fidelity/graphics
+    #...1. Disable rendered mode (Disable God Bennett's original "photorealistic" fidelity/graphics)
     for area in bpy.context.screen.areas: 
         if area.type == 'VIEW_3D':
             space = area.spaces.active
@@ -116,7 +107,7 @@ def _aeon_3d_action_end_read_behaviour ():
                 
     #Re-focus on entire synth which restores default position prior to animation to do reading action
     
-    #...1. Restore cycles mode, to restore focus on entire synth
+    #...2. Enable rendered mode (Enable God Bennett's original "photorealistic" fidelity/graphics)
     for area in bpy.context.screen.areas: 
         if area.type == 'VIEW_3D':
             space = area.spaces.active
