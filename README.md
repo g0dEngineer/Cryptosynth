@@ -194,4 +194,4 @@ https://www.facebook.com/Cryptosynth/posts/108859584636527
 
 # Future work (dynamic ai aeon emotion and ai user emotion reading): 
 
-Apart from the Ai gpt2 conversational responses, the goal is to also add ai driven 3d behaviours, based on voice user input, and user web cam expressions. This would resonably involve the use of more vision systems (including user perception ai systems for reading user emotion as well as ai based aeon face/muscle systems dynamically activated during interaction), together with their integration in blender3d.
+Apart from the Ai gpt2 conversational responses that have been available since the 1st cryptosynth aeon release, the goal is to also add ai driven 3d behaviours, based on voice user input, and user web cam expressions. This would resonably involve the use of more vision systems (including user perception ai systems for reading user emotion as well as ai based aeon face/muscle systems dynamically activated during interaction), together with their integration in blender3d.
