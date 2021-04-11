@@ -190,3 +190,8 @@ https://www.facebook.com/Cryptosynth/posts/108859584636527
 2. That photorealistic fake person is then converted to a 3d model in some program B.
 3. An artificial intelligence brain, namely based on GPT-2, is personalized to the synth's theme.
 4. A plugin was made for user interface into some program C; blender 2.91, which is carefully organized to render the 3d model (2) together with integration of the personalized ai brain (3), which any human user can interact with.
+
+
+# Future work (dynamic ai aeon emotion and ai user emotion reading):
+
+Apart from the Ai gpt2 conversational responses, the goal is to also add ai driven 3d behaviours, based on voice user input, and user web cam expressions. This would resonably involve the use of more vision systems (including user perception ai systems for reading user emotion as well as ai based aeon face/muscle systems dynamically activated during interaction), together with their integration in blender3d.
