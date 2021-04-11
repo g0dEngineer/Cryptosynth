@@ -22,7 +22,7 @@ bl_info = {
 
 
 ########################################################
-#BLOCK_A. Conversational Neural Network Module
+#BLOCK_A. Conversational Neural Network Module 
 #Note 1: Setup function is invoked in aeonInitializeBeing (), before 3d model realism is invoked
 #Note 2: Neural network/ai response is called in "UserTransmission" class @execute func, where aeon_output variable is updated.
 from . import interact_cryptosynth 
