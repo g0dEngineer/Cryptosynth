@@ -116,30 +116,36 @@ https://www.python.org/downloads/release/python-370/
 ### Fun note: Cryptosynth needs both the zip above as well as the plugin to work. However, the zip above is needed to generate the Ai brain which is explained below. This is closer to the original hugging face gpt2 code base, and lacks all modifications seen in the plugin format of the code, as the cryptosynth plugin is actually a further modified version of this code base, the biggest exception being my __ init __.py file explained in the [quick overview section](https://github.com/g0dEngineer/Cryptosynth#quick-overview-for-generalpartly-technical-understanding).
 
 3. Specifically from Python37 scope, install all requirements in (2) immediately above.
+4. 
 	a. Open cmd. (Windows+r "cmd")
+	
 	b. In cmd (a), set path to python 37 path. (Eg type "path=C:\Users\18765\AppData\Local\Programs\Python\Python37" without quotes and hit enter.)
+	
 	c. In cmd (a), navigate to "Cryptosynth Conversational Ai Windows Module" folder from your downloaded of (2).
+	
 	d. In cmd (a), type command "python -m pip install -r requirements.txt" without quotes and hit enter, and wait till message at end indicating successful installation of modules from requirements.txt.
 
 4. Test if (3) installed properly, by running the .bat file already provided in "LAUNCH_INTERACTION_py37.bat". 
 You should see an Ai response talking about "My name is.." or "I am ..." or something similar. 
 This is a quick test of the Conversational Ai module, where the ai is asked what its name is in the interact_cryptosynth.py file which the bat file calls.
 
-4.b. Note the "tempdir" value, and save this directory in a text file somewhere. This is Aeon's brain!
+        4.b. Note the "tempdir" value, and save this directory in a text file somewhere. This is Aeon's brain!
 
-6. On a windows folder, navigate to path from 3.b. (eg C:\Users\18765\AppData\Local\Programs\Python\Python37)
+5. On a windows folder, navigate to path from 3.b. (eg C:\Users\18765\AppData\Local\Programs\Python\Python37)
 
 	5.b. Go to Lib\site-packages folder, and copy everything in that folder. (CTRL + A) then (CTRL + C).
 
-7. Go to blender 2.91 python directory. (Eg: C:\Program Files\Blender Foundation\Blender 2.91)
+6. Go to blender 2.91 python directory. (Eg: C:\Program Files\Blender Foundation\Blender 2.91)
 
 	6.b. Go further into directory: 2.91\python\lib\site-packages. Hit (CTRL + P) to paste all content copied from path (5).
 
 
-8. This concludes integration of python 37 Ai conversational module, into Blender3d. 
+7. This concludes integration of python 37 Ai conversational module, into Blender3d. 
 
 Fun-note: If you look closely, the plugin (from Part A/2) contains similar code to the Ai module (from Part C/1), which some differences:
+
 	a. The Plugin (Part A/2) contains an extra file, called __init__.py; a file that controls 3d model's behaviour, and integrates ai response capbility into blender3d.
+	
 	b. The Plugin (Part A/2) imports things differently from the Windows module (Part C/1) 
 
 	
