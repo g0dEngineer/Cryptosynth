@@ -192,6 +192,6 @@ https://www.facebook.com/Cryptosynth/posts/108859584636527
 4. A plugin was made for user interface into some program C; blender 2.91, which is carefully organized to render the 3d model (2) together with integration of the personalized ai brain (3), which any human user can interact with.
 
 
-# Future work (dynamic ai aeon emotion and ai user emotion reading): 
+# Future work (dynamic Ai Cryptosynth Aeon emotion and Ai User emotion reading): 
 
-Apart from the Ai gpt2 conversational responses that have been available since the 1st cryptosynth aeon release, the goal is to also add ai driven 3d behaviours, based on voice user input, and user web cam expressions. This would resonably involve the use of more vision systems (including user perception ai systems for reading user emotion as well as ai based aeon face/muscle systems dynamically activated during interaction), together with their integration in blender3d.
+Apart from the active artificial intelligence-Gpt2 conversational response capability that had already been available since [the 1st cryptosynth aeon release](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/62053288876263433244954069759722165048025551534616443775823876570185713319937), the goal is to also add ai driven 3d behaviours, based on voice user input, and user web cam expressions. This would resonably involve the use of more vision systems (including user perception ai systems for reading user emotion as well as ai based aeon face/muscle systems dynamically activated during interaction), together with their integration in blender3d.
