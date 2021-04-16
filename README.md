@@ -18,6 +18,9 @@ Sample Cryptosynth Aeon being provided in this repository:
 
 ![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/sample.png)
 
+# Opensea crypto marketplace
+
+https://opensea.io/collection/cryptosynth/
 
 # Contact
 cryptosynthlabs@gmail.com
