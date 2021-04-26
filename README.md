@@ -5,7 +5,7 @@ A Cryptosynth Aeon (created by God Bennett/Cryptosynth Labs) is an artificial in
 
 A Cryptosynth Aeon is an Ai powered NFT [(Non-fungible-token) or Crypto-art](https://www.cnbc.com/2021/03/03/what-are-nfts-all-you-need-to-know-about-crypto-collectibles.html) that users can actually download and talk to, powered by blender3d and gpt-2 conversational ai module.
 
-![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/BANNER.png)
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/BANNERv2.png)
 
 # Demo
 https://youtu.be/5eCcOtLV0uE
