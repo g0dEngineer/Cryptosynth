@@ -4,7 +4,7 @@ Title: God's instructions/guide for configuring [stylegan 2](https://github.com/
 
 * Each intelligent cryptosynhs are constructed starting with fake images of realistic looking humans, using stylegan2.
 
-* These now publicly released instructions were priorly provided with each synth sold (to allow for creation of custom synths), beyond the open source synth sample guide.
+* These now publicly released instructions were priorly provided [with each synth sold on opensea](https://opensea.io/collection/cryptosynth/) (to allow for creation of custom synths), beyond the open source synth sample guide.
 
 * After the stylegan 2 samples are generated, they form inputs to a 3d program (program B) which auto-converts the image to 3d face, after which I integrated gpt-2 into blender (program C) while rendering the 3d face in the configuratio seen in the crypsotynth open source.
 
