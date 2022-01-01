@@ -1,6 +1,6 @@
 Author: God Quest Bennett/Cryptosynth Labs
 
-Title: God's instructions/guide for configuring [stylegan 2](https://github.com/NVlabs/stylegan2/) on windows, for generating starting images of artificial people like the 2d images that were used to construct [my 3d cryptosynths](https://github.com/g0dEngineer/Cryptosynth), which can also be used to generate cars, houses, etc. 
+Title: God's instructions/guide for configuring [stylegan 2](https://github.com/NVlabs/stylegan2/) on windows, for generating starting images of artificial people like the 2d images that were used to construct [my 3d cryptosynths](https://github.com/g0dEngineer/Cryptosynth), which can also be used to generate cars, houses, etc, [depending on the .pkl pretrained model employed.](https://nvlabs-fi-cdn.nvidia.com/stylegan2/networks)
 
 * Each intelligent cryptosynhs are constructed starting with fake images of realistic looking humans, using stylegan2.
 
