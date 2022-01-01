@@ -10,7 +10,7 @@ Title: God's instructions/guide for configuring [stylegan 2](https://github.com/
 
 * I also used this process [in my rarible cars](https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:325535?tab=details) are not real series.
 
-
+![image](https://github.com/g0dEngineer/Cryptosynth/blob/main/readme_images/0000.png)
 
 Requirements: Windows Desktop or laptop with at least GTX 1060 gpu.
 
