@@ -32,29 +32,48 @@ Bonus: I will guide your through the unlocked instructions(18 steps) + source co
 7. Install visual studio 14 if not already installed. Something like "C:\Program Files (x86)\Microsoft Visual Studio 14.0" should exist after install.
 
 8. After doing 2017 commnunity run install again, and modify 2017 commnunity to include (a few gigs):
+
+
 	i. Windows Universal CRT SDK
+	
 	ii. Windows 10 SDK 
+	
 	iii. VC++ 2015.3 v14.00 toolset for tesktop
 
 9. Ensure environement variable is setup to include items similar to the following:
 	C:\Users\18765\AppData\Local\Programs\Python\Python36
+	
 	C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+	
 	C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt
+	
 	C:\Users\18765\Downloads\cudnn-10.0-windows10-x64-v7.5.0.56\cuda\bin
+	
 	C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+	
 	C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp
+	
 
 10. Modify lib/include in environment variables:
+
+
 	INCLUDE:
+	
 	C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10240.0\ucrt
+	
 
 	LIB
+	
 	C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10240.0\um\x64
+	
 	C:\Program Files (x86)\Windows Kits\10\Lib\10.0.10240.0\ucrt\x64
 		
 		
 11. Install tensorflow-gpu 1.14.0.
+
+
 	Note if you get dlib build red line errors, you need to:
+	
 		Install cmake 3.19.4, and visual studio build tools. (this build tools is different from the items prior)
 		After installing build tools.
 	
@@ -63,6 +82,8 @@ Bonus: I will guide your through the unlocked instructions(18 steps) + source co
 13. Restart computer. Tensorflow may not detect GPU until restart.
 
 14. Navigate to cuda 10 bin. Right click on cudafe++.exe, and enable run as administrator , to avoid "nvcc error : 'cudafe++' died with status 0xC0000005 (ACCESS_VIOLATION)" error. God Bennett (myself) came up with this quick solution, instead of the CUDA 10.1 download workaround solution proposed online, which is 2 gb download.
+
+
 	Example location: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
 
 	
@@ -86,9 +107,15 @@ Example  mp4='C:/Backup/Downloads/God/RobotizeJA/crypto/ai_generated_cars/styleg
 d) You can also modify other parameters there, like video duration.
 
 17. Get ffmpeg in python idle:
+
+
 	import imageio
+	
 	imageio.plugins.ffmpeg.download()
 
-18. Run interpolation python script: Example -> python C:/Backup/Downloads/God/RobotizeJA/crypto/cryptosynth/00_cryptosynth_appearance_gen/run_generator.py generate-images --network=stylegan2-ffhq-config-d.pkl --seeds=0-25 --truncation-psi=0.5
+18. Run interpolation python script: 
+ 
+ 
+Example -> python C:/Backup/Downloads/God/RobotizeJA/crypto/cryptosynth/00_cryptosynth_appearance_gen/run_generator.py generate-images --network=stylegan2-ffhq-config-d.pkl --seeds=0-25 --truncation-psi=0.5
 
 
